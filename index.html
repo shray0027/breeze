@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>breeze - Chill your mind</title>
+    <link rel="icon" href="windy.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/89e8994d62.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="animate.css">
+    <style media="screen">
+      h1{
+        font-family : "Great Vibes",cursive;
+        font-weight:500;
+        font-size:175px;
+        color :white;
+        display : inline-block;
+        transform :rotate(-27deg);
+      }
+      .logo{
+        position : fixed;
+        top: 30%;
+        width :100%;
+        text-align:center;
+        padding-bottom:300px;
+        text-shadow: 2px 2px 5px black;
+      }
+
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        }
+        .content{
+            position : fixed;
+
+            top:70%;
+            width:100%;
+        }
+        .logo-button{
+          position:relative;
+          border-radius:100%;
+          box-shadow : 5px 7px 7px black ;
+        }
+    </style>
+  </head>
+  <body>
+    <video id="myVideo" autoplay="autoplay" muted="muted" loop="loop">
+      <source src="ColorRipple.mp4" type="video/mp4">
+    </video>
+    <div class="logo">
+      <h1 class ="logo-font">breeze</h1>
+    </div>
+    <div class="content">
+       <a href="index.html"><center>
+         <img class=" fadeInUp animated logo-button"src="logo-breeze.png" alt="enter">
+         </center></a>
+    </div>
+  </body>
+</html>

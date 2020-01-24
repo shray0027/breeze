@@ -1,0 +1,132 @@
+body{
+  background-image: url("bg1.jpeg"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Signika-black",sans-serif;
+  font-weight: 400;
+
+}
+#title {
+  width:100%;
+  padding-bottom: 50px;
+}
+.container-fluid{
+  padding : 1%;
+}
+
+/*Navbar*/
+.navbar-brand{
+  font-size: 2.5rem;
+}
+.nav-link{
+  font-size : 1rem;
+}
+
+/*Dropdown-Menu-Btn*/
+
+.btn-outline-light {
+  color: #9fbcea;
+  border-color: #9fbcea;
+}
+.btn-outline-light:hover {
+  color:#ffff;
+  background-color: transparent;
+  border-color: #f8f9fa;
+}
+.btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
+.show > .btn-outline-light.dropdown-toggle {
+  color:#ffff;
+  background-color: transparent;
+  border-color: #f8f9fa;
+}
+
+/*Dropdown-Menu*/
+
+.dropdown{
+  display: inline-block;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  float: center;
+  min-width: 10rem;
+  padding: 1rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #fff;
+  text-align: left;
+  list-style: none;
+  background-color: black;
+  z-index :1;
+  background-clip: padding-box;
+  border: 1px solid #f8f9fa;
+  border-radius: 0.25rem;
+}
+.dropdown-item {
+  display:inline-block;
+  width: 100%;
+  padding-right:5rem ;
+  clear: both;
+  font-weight: 400;
+  color: #fff;
+  text-align: inherit;
+  white-space: nowrap;
+  background-color: black;
+  z-index :1;
+  border: 0;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+  color: #0175d5;
+  text-decoration: none;
+  background-color: #f8f9fa;
+}
+
+/*Intro*/
+
+.row{
+  background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+  height:400px;
+  width:96%;
+  border-radius: 15px;
+  margin : 2%;
+  margin-left: 2%;
+ z-index: 0;
+
+}
+.intro-cover{
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.intro_col_2{
+  font-size: 4rem;
+  color:white;
+  margin-top: 25px;
+}
+
+@media screen and (max-width : 1000px){
+
+    #title{
+      padding-bottom: 400px;
+    }
+    .row{
+      width:98%;
+      margin-left: 1%;
+    }
+    .intro_col_2{
+      text-align: center;
+      background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
+      border-radius: 15px;
+      width:98%;
+    }
+    .intro-description{
+      padding-top: 10px;
+    }
+}
+.download-button{
+  margin : 2%;
+  font-family: sans-serif;
+}
