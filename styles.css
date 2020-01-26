@@ -1,5 +1,5 @@
 body{
-  background-image: url("bg1.jpeg"), linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+background-color: black;
   overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{
@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #title {
   width:100%;
-  padding-bottom: 50px;
+  padding-bottom: 15%;
 }
 .container-fluid{
   padding : 1%;
@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6{
 
 /*Intro*/
 
-.row{
+.intro{
   background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4));
   height:400px;
   width:96%;
@@ -100,19 +100,110 @@ h1,h2,h3,h4,h5,h6{
 .intro-cover{
     margin-top: 20px;
     border-radius: 10px;
+
 }
 .intro_col_2{
   font-size: 4rem;
   color:white;
   margin-top: 25px;
 }
+.download-button{
+  margin : 2%;
+  font-family: sans-serif;
+}
+
+/*middle-container*/
+
+#Singer
+{
+  margin-top: 100px;
+  position: relative;
+  background-color: black;
+}
+
+/* angular-div */
+
+.angular-div{
+  height : 300px;
+  width:100%;
+  position:relative;
+  bottom: 200px;
+  transform : skewY(-6deg);
+  background-color: black;
+}
+
+/* straight div */
+
+.straight{
+background-color: black;
+  width:100%;
+  position:relative;
+  bottom:380px;
+  padding : 6% 10%;
+  ;
+}
+
+/*carousel - icons */
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+	background-color:#830606;
+	border-radius:28px;
+	border:1px solid #830606;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:10px 38px;
+	text-decoration:none;
+  position: absolute;
+  bottom :13px;
+}
+.carousel-control-prev-icon{
+  left : 23px;
+}
+.carousel-control-next-icon{
+  right : 23px;
+}
+
+/* carousel-content*/
+
+.cap-1,.cap-3{
+  left:800px;
+  width : 500px;
+  top : 8px;
+}
+.cap-2{
+  left : 80px;
+  width : 500px;
+  top : 8px;
+}
+.b-c-1-1 , .b-c-1-2 ,.b-c-2-1 ,.b-c-2-2, .b-c-3-1 , .b-c-3-2{
+    font-family: 'Playfair Display', serif;
+    text-align: left;
+}
+.b-c-1-1 , .b-c-2-1 , .b-c-3-1{
+  font-size : 300%;
+  font-weight : 700;
+}
+.b-c-3-1 ,.b-c-3-2 ,.b-c-2-1 , .b-c-2-2{
+  color : #f1efd4;
+}
+.b-c-1-1 , .b-c-1-2 {
+  color: black;
+}
+
+
+
+
+
+
+/* for phone */
 
 @media screen and (max-width : 1000px){
 
     #title{
       padding-bottom: 400px;
     }
-    .row{
+    .intro{
       width:98%;
       margin-left: 1%;
     }
@@ -123,10 +214,16 @@ h1,h2,h3,h4,h5,h6{
       width:98%;
     }
     .intro-description{
-      padding-top: 10px;
+      padding-top: 20px;
     }
-}
-.download-button{
-  margin : 2%;
-  font-family: sans-serif;
+    .angular-div{
+      bottom: 20px;
+      transform : skewY(0deg);
+
+    }
+  .carousel{
+    padding-bottom : 100px;
+  }
+
+
 }
