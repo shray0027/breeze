@@ -1,5 +1,5 @@
 body{
-background-color: black;
+
   overflow-x: hidden;
 }
 h1,h2,h3,h4,h5,h6{
@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6{
 }
 #title {
   width:100%;
-  padding-bottom: 15%;
+  padding: 3% 10% 28rem 10%;
 }
 .container-fluid{
   padding : 1%;
@@ -116,7 +116,7 @@ h1,h2,h3,h4,h5,h6{
 
 #Singer
 {
-  margin-top: 100px;
+
   position: relative;
   background-color: black;
 }
@@ -127,28 +127,27 @@ h1,h2,h3,h4,h5,h6{
   height : 300px;
   width:100%;
   position:relative;
-  bottom: 200px;
-  transform : skewY(-6deg);
+  bottom: 160px;
+  transform : skewY(-5deg);
   background-color: black;
 }
 
 /* straight div */
 
 .straight{
-background-color: black;
+ background-color: black;
   width:100%;
   position:relative;
-  bottom:380px;
+  bottom:220px;
   padding : 6% 10%;
-  ;
+
 }
 
 /*carousel - icons */
-
 .carousel-control-next-icon, .carousel-control-prev-icon {
-	background-color:#830606;
+	background-color:red;
 	border-radius:28px;
-	border:1px solid #830606;
+	border:1px solid red;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
@@ -166,12 +165,12 @@ background-color: black;
 
 /* carousel-content*/
 
-.cap-1,.cap-3{
+.cap-1,.cap-3,.cap-5{
   left:800px;
   width : 500px;
   top : 8px;
 }
-.cap-2{
+.cap-2,.cap-4,.cap-6{
   left : 80px;
   width : 500px;
   top : 8px;
@@ -190,9 +189,89 @@ background-color: black;
 .b-c-1-1 , .b-c-1-2 {
   color: black;
 }
+.italic{
+  color :red;
+}
 
+/* songs link button */
 
+.myButton{
 
+	background-color:#DC143C;
+	border-radius:25px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:2px 12px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#ff0011;
+  color : white;
+  text-decoration:none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+/*parallax -2*/
+.parallax-window {
+    min-height: 600px;
+    background: transparent;
+    text-align: left;
+
+    }
+    .p-x-1 , .p-x-2{
+      color : black;
+      z-index: 2;
+      font-family: "Signika-black",sans-serif;
+      position: relative;
+      text-align: center;
+      top : 100px;
+      left : 50px;
+    }
+    .p-x-1{
+      font-weight: 700;
+      font-size: 5rem;
+    }
+    .p-x-2{
+      margin-top:100px;
+      font-weight : 400;
+      font-size : 2.5rem;
+
+    }
+
+/* mood */
+
+.song-artist{
+
+}
+.container-inner{
+  display : flex;
+  justify-content : center;
+  align-items: center;
+  padding : 50px;
+  background: #EFEEEE;
+}
+.neumorphism-1{
+  margin : 20px;
+  height : 400px;
+  width:200px;
+  background : #EFEEEE;
+  border-radius: 15px;
+  box-shadow: inset -4px -4px 7px #ffffff ,inset 4px 4px 5px #D1CDC7;
+}
+.neumorphism-2{
+  margin: 20px;
+  height : 400px;
+  width:300px;
+  background : #EFEEEE;
+  border-radius: 15px;
+  box-shadow:  -4px -4px 7px #ffffff , 4px 4px 5px #D1CDC7;
+  margin : 0 5%;
+}
 
 
 
